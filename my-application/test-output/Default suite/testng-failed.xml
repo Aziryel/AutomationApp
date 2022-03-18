@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.java.testing.tests.CreateAccount">
+      <class name="org.java.testing.tests.NewAddress">
         <methods>
-          <include name="CreateNewUserAccount"/>
+          <include name="LogIn"/>
         </methods>
-      </class> <!-- org.java.testing.tests.CreateAccount -->
+      </class> <!-- org.java.testing.tests.NewAddress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
